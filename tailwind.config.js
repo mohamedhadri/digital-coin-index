@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // backgroundImage: {
+      //   'big-planet': "url('/assets/Images/big-planet.png')",
+      //   'planet': "url('/img/footer-texture.png')",
+      // }
+    },
   },
   plugins: [],
 }

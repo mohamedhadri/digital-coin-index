@@ -1,11 +1,18 @@
-<app-navbar></app-navbar>
+<div class="bg-[#080b18]">
+  <app-navbar></app-navbar>
 
-<div class="relative isolate    bg-[#080b18] h-screen">
+ 
+<div class="relative isolate   ">
+ 
+  <div class="stars" ></div>
+  <div class="star"></div>
+  <div class="star"></div>
     <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
       <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#9162ff] to-[#5a00e8] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
        style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
   
+    
     <div class="flex h-96">
 
       <div class="basis-1/2">
@@ -21,5 +28,46 @@
       </div>
     
   </div>
-  <router-outlet></router-outlet>
+
+  <div class="flex w-full   mb-48">
+
+    
+    <div class="flex w-full">
+      
+      <div class="basis-1/4"> </div>
+
+      <div class="basis-1/2 flex">
+        <section class=" flex flex-col text-white  basis-2/3   " id="title">
+          <span class="text-6xl mb-6">Invest in your <span class="future">future</span> </span>
+          <span class="text-4xl mb-6">Your Gateway to the Cryptocurrency Universe</span>
+          <span class="text-xl min-w-80">Our mission is to provide you with comprehensive, <br>
+             up-to-date, and reliable indices of all digital coins.  </span> <br>
+  
+
+          <div class="badge-bg w-32 shadow-lg shadow-indigo-500/50 cursor-pointer">
+            <div class="act-btn tracking-normal cursor-pointer text-lg">Sign Up</div>
+          
+          </div>
+        </section>
+  
+        <section class=" lg:w-[100px]">
+         <img class="min-w-48 w-full mb-7" src="../assets/Images/image (1).png" alt="">
+         <img class="min-w-48 w-full ml-6" src="../assets/Images/big-planet.png" alt="">
+        </section>
+      </div>
+    
+      <div class="basis-1/4">
+        <img class="w-16" src="../assets/Images/star.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  
+ 
+</div>
+
+<div class="vid-container lg:w-2/3 m-auto">
+  test
+</div> 
+<router-outlet></router-outlet>
 </div>
